@@ -1,0 +1,29 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .sign-in {
+        width: 70% !important;
+        height: 76% !important;
+        margin-top: -10px !important;
+    }
+
+    .sign-in img {
+        height: 22% !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .sign-in {
+        width: 85% !important;
+        margin-top: 7px !important;
+    }
+
+    .sign-in img {
+        width: 33% !important;
+    }
+
+    form .btn {
+        width: 27% !important;
+    }
+
+}

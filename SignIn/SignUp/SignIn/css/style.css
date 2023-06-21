@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    height: 713px;
+    background: linear-gradient(-70deg, #94AF9F, #DBE4C6);
+}
+
+.sign-in img {
+    width: 20%;
+    height: 19%;
+    margin-top: 20px;
+}
+
+.sign-in {
+    background-color: white;
+    height: fit-content;
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.107);
+}
+
+
+form input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    padding: 4px;
+}
+
+form .icon {
+    border-radius: 50%;
+    background-color: #94AF9F;
+    color: white;
+    padding: 10px 11px;
+}
+
+form .btn {
+    background-color: #94AF9F;
+    width: 20%;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #e8efeb;
+    border: solid 2px #7C9070;
+    color: #7C9070;
+    transition: 0.7s;
+}
+
+.forget {
+    color: #afadad;
+}
+
+.forget:hover {
+    color: #afadad;
+}
+
+.sign-in a {
+    text-decoration: none;
+}
+
+.fa-brands {
+    background-color: #94AF9F;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.fa-brands:hover {
+    background-color: #7C9070;
+    transition: 0.9s;
+}
+
+.facebook {
+    padding: 10px 12px;
+}
+
+#sign-up {
+    color: #94AF9F;
+    font-weight: 600;
+}

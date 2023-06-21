@@ -1,0 +1,59 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    body {
+        height: 800px !important;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 85% !important;
+    }
+
+    .info p {
+        text-align: center !important;
+    }
+
+    .data {
+        width: 85% !important;
+    }
+
+    form {
+        margin-left: 15% !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        height: 880px !important;
+    }
+
+    .info {
+        width: 83% !important;
+    }
+
+    .data {
+        width: 83% !important;
+    }
+
+    form {
+        width: 124% !important;
+        margin-left: 11px !important;
+    }
+
+    .last-name,
+    .confirm-password {
+        margin-left: 37px !important;
+        margin-top: 7px;
+    }
+
+    .data {
+        height: 360px;
+    }
+}
